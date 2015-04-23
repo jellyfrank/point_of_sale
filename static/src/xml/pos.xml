@@ -596,7 +596,7 @@
             <!-- Total -->
 
             <line><right>--------</right></line>
-            <line size='double-height'>
+            <line size='normal'>
                 <left><pre>        TOTAL</pre></left>
                 <right><value><t t-esc='receipt.total_with_tax' /></value></right>
             </line>
@@ -612,7 +612,7 @@
             </t>
             <br/> 
 
-            <line size='double-height'>
+            <line size='normal'>
                 <left><pre>        CHANGE</pre></left>
                 <right><value><t t-esc='receipt.change' /></value></right>
             </line>
